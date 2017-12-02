@@ -1,0 +1,9 @@
+{
+  // Presets are preset packages of plugins
+  "presets": [
+      ["env", "react"],
+      ["es2015", { "modules": false }]
+    ],
+  // Plugins are modules for transpiling
+  "plugins": ["transform-class-properties"]
+}
