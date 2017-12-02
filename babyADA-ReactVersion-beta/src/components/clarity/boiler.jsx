@@ -1,7 +1,7 @@
 import React from 'react';
 import './sassboiler.scss';
 
-const  = props => (
+const Boiler = props => (
   <div>
     <h1>{props.counter}</h1>
     <button onClick={() => props.handleClick(1)}>1</button>

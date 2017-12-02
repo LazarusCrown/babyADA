@@ -1,37 +1,22 @@
 {
-  "name": "babyADA",
+  "name": "babyada-reactversion-beta",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
-  "repository": "https://github.com/LazarusCrown/babyADA.git",
-  "author": "Lazarus Crown",
-  "license": "",
+  "description": "ADA = automated developer assistant",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    // "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "",
-    "start": "",
-    "build": "webpack",
-    "dev-server": "webpack-dev-server"
-   },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.7",
-    "live-server": "^1.2.0",
-    "node-sass": "^4.5.3",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.6.0"
-   },
-  "devDependencies": {
-    "webpack-dev-server": "^2.8.2"
-   }
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5",
+    "node": "^9.2.0",
+    "react": "^16.2.0",
+    "sass": "^1.0.0-beta.3",
+    "webpack": "^3.9.1"
+  }
 }
