@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const fs = require('fs');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const mongoURI = process.env.NODE_ENV === 'test' ? 'mongodb://localhost/babyADAreactversion' : 'mongodb://localhost/babyADAreactversion';
@@ -19,22 +20,26 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //GETS
 
 app.get('/', (req,res) => {
-  res.render('./../public/index');
+  res.render('/index');
 });
+
+// app.get('/styles', (req,res) => {
+//   res.render('/styles')
+// });
 
 // app.get('/signup', cookieController.setCookie, (req, res) => {
 //   res.render('./../client/signup', {error: null});
 // });
 
-app.get('/answer', answerController.createAnswer, (req, res) => {
-  // res.render('./..//signup', {error: null});
-});
+// app.get('/answer', answerController.createAnswer, (req, res) => {
+//   // res.render('./../signup', {error: null});
+// });
 
 //POSTS
 
-app.post('/', askController.createAsk, (req,res) => res.redirect('./../answer'));
+// app.post('/', askController.createAsk, (req,res) => res.redirect('./../answer'));
 
-app.post('/answer', askController.createAsk, (req,res) => res.redirect('./../answerchain'));
+// app.post('/answer', askController.createAsk, (req,res) => res.redirect('./../answerchain'));
 
 // sessionController.startSession
 //cookieController.setSSIDCookie

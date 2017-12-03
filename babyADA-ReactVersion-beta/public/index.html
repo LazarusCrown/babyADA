@@ -3,31 +3,45 @@
 <head>
   <meta charset="utf-8">
   <title>babyADA beta</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+
   <div id="constants">
+  <center>
   <img id="nautilus" src="Nautilus_shell.png"></img>
+  </center>
+  <center>
   <h1 id="adaname">
     babyADA
   </h1>
-  <p id="introtext">
-    Hi my name is Ada, I'm here to help you learn how to code.
-    Turn on the mic & ask me a question!
-  </p>
+  </center>
   </div>
+
+<center>
+<h5 id="introtext">
+  Hi there, my name is babyADA! 
+  <br>
+  I'm here to help you learn how to code. 
+  <br>
+  Ask me a question!
+</h5>
+</center>
 
   <center>
   <div id="mic">
 
     <img id="micicon" src="mic.png"></img>
 
+    <div id="root"></div>
+
     <p id="micstatus"> 
-        Microphone OFF 
+        the microphone is ON 
     </p>
 
-    <button id="miconbutton" onclick= ""> MIC ON </button>
-    <button id="micoffbutton" onclick= ""> MIC OFF </button>
+    <!-- <button id="miconbutton" onclick= ""> MIC ON </button> -->
+    <button id="micoffbutton" onclick=abortListening> MIC OFF </button> 
 
   </div>
   </center>
@@ -36,11 +50,16 @@
   <script src="/bundle.js"></script>
   <script>console.log('test')</script>
 
-  <p>
+  <br>
+
+  <p id="tinyabout">
     babyAda was made by Althea Capra (github: LazarusCrown) with love @ Codesmith in Los Angeles in 2017.
     Want to help her grow? lazaruscrown@protonmail.com
   </p>
-  
+
+
+<script type="text/javascript" src="./bundle.js"></script>
+<script type="text/javascript" src="./indexsrc.js"></script>  
 </body>
 
 </html>

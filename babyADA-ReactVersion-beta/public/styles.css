@@ -4,71 +4,77 @@ body {
 
 #miconbutton {
     background-color: lightgreen;
-    border: solid pink 3px;
+    border: solid lightseagreen 3px;
     border-radius: 3px;
     font-family: sans-serif;
-    font-size: 12;
-    width: 70px;
-    height: 40px;
+    font-size: 25;
+    width: 130px;
+    height: 50px;
     position: relative;
+    bottom: 120px;
 
 }
 
 #micoffbutton {
     background-color: lightskyblue;
-    border: solid pink 3px;
+    border: solid cornflowerblue 3px;
     border-radius: 3px;
     font-family: sans-serif;
-    font-size: 12;
-    width: 70px;
-    height: 40px;
+    font-size: 25;
+    width: 100px;
+    height: 50px;
     position: relative;
+    bottom: 120px;
 
 }
 
 #nautilus {
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 45%;
-    margin-right: 45%
-
+    position: relative;
+    height: 300px;
+    width: 370px;
 }
 
 #adaname {
     font-family: sans-serif;
-    font-size: 20;
+    font-size: 30;
     color: cornflowerblue;
     position: relative;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 45%;
-    margin-right: 45%;
-
+    margin-bottom: 10px;
+    bottom: 80px;
 }
 
 #introtext {
     font-family: sans-serif;
-    font-size: 12;
-    color: midnightblue;
+    color: cornflowerblue;
     position: relative;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 45%;
-    margin-right: 45%;
-
+    margin-bottom: 10px;
+    bottom: 80px;
 }
 
 #micicon {
     position: relative;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     padding-bottom: 10px;
     padding-top: 10px;
+    bottom: 80px;
+}
+
+#micstatus {
+    position: relative;
+    font-family: sans-serif;
+    color: crimson;
+    bottom: 20px;
+}
+
+#tinyabout {
+    position: relative;
+    color: darkslateblue;
+    font-size: 12;
 
 }
+
+
 
 
 

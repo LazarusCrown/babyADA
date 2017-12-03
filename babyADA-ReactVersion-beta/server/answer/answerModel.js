@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+
+
 /**
 * Hint: Why is bcrypt required here?
 */
@@ -16,7 +18,7 @@ const answerSchema = new Schema({
      simplify: false,
      asktext: {type: String, required: true},
      askformat: {type: String, required: true},
-     answer: answerController.passtoNLP(asktext)
+     answer: ""
 
 });
 
